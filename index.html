@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nevada · Helados hechos cada mañana</title>
+  <meta name="description" content="Nevada, heladería de barrio (marca de demostración). Elige tu sabor, arma tu helado y pídelo por WhatsApp.">
+  <meta name="theme-color" content="#F6A9BC">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#sabores">Saltar al contenido</a>
+
+  <header class="top">
+    <a class="brand" href="#inicio" aria-label="Nevada, volver al inicio">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M10 16 16 30 22 16Z" fill="#D9A15B"/><circle cx="16" cy="12" r="8" fill="currentColor"/></svg>
+      nevada
+    </a>
+    <nav class="top__nav" aria-label="Principal">
+      <a href="#sabores">Sabores</a>
+      <a href="#arma">Arma tu helado</a>
+      <a href="#visitanos">Visítanos</a>
+    </nav>
+    <a class="btn btn--wa top__cta" data-wa="Hola Nevada 👋 Quiero pedir helado. ¿Qué sabores tienen hoy?" href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20pedir%20helado." target="_blank" rel="noopener">
+      <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.4-.3Z"/></svg>
+      <span>Pedir<span class="hide-sm"> por WhatsApp</span></span>
+    </a>
+  </header>
+
+  <main id="inicio">
+    <!-- 1 · Carta de sabores (portada) -->
+    <section class="flavors" id="sabores" aria-labelledby="hero-title">
+      <div class="flavors__stage">
+        <h1 class="flavors__title" id="hero-title">Helados hechos <br class="br-sm">cada mañana.</h1>
+
+        <article class="flavor" id="sabor-fresa" data-name="Fresa &amp; nata" style="--bg:#F6A9BC;--ink:#4A0F22;--accent:#EC5C77;--k:30" aria-labelledby="t-fresa">
+          <p class="flavor__word" aria-hidden="true">Fresa</p>
+          <div class="flavor__decor" aria-hidden="true"></div>
+          <figure class="flavor__frame">
+            <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&amp;fit=crop&amp;q=80&amp;w=900"
+                 srcset="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&amp;fit=crop&amp;q=80&amp;w=500 500w, https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&amp;fit=crop&amp;q=80&amp;w=900 900w, https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&amp;fit=crop&amp;q=80&amp;w=1400 1400w"
+                 sizes="(min-width: 900px) 460px, 70vw" width="900" height="1350" fetchpriority="high"
+                 alt="Cucurucho con una bola de helado de fresa sobre otra de nata, sostenido frente a un fondo naranja"
+                 style="--pos:50% 30%">
+          </figure>
+          <div class="flavor__copy">
+            <p class="flavor__num">01 <span>/ 05</span></p>
+            <h2 id="t-fresa">Fresa &amp; nata</h2>
+            <p class="flavor__desc">Fresas maduras trituradas a mano sobre una base de nata suave. El clásico que se pide sin mirar la carta.</p>
+            <ul class="flavor__tags" aria-label="Ingredientes"><li>Fresa</li><li>Nata</li><li>Vainilla</li></ul>
+          </div>
+          <a class="btn flavor__cta" data-wa="Hola Nevada 👋 Quiero un helado de Fresa & nata." href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20un%20helado%20de%20Fresa%20y%20nata." target="_blank" rel="noopener">Quiero este <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="flavor" id="sabor-pistacho" data-name="Pistacho &amp; cacao" style="--bg:#BCD98A;--ink:#1D2F0E;--accent:#7FA344;--k:19.4" aria-labelledby="t-pistacho">
+          <p class="flavor__word" aria-hidden="true">Pistacho</p>
+          <div class="flavor__decor" aria-hidden="true"></div>
+          <figure class="flavor__frame">
+            <img src="https://images.unsplash.com/photo-1592864042311-a3babede6944?auto=format&amp;fit=crop&amp;q=80&amp;w=900"
+                 srcset="https://images.unsplash.com/photo-1592864042311-a3babede6944?auto=format&amp;fit=crop&amp;q=80&amp;w=500 500w, https://images.unsplash.com/photo-1592864042311-a3babede6944?auto=format&amp;fit=crop&amp;q=80&amp;w=900 900w, https://images.unsplash.com/photo-1592864042311-a3babede6944?auto=format&amp;fit=crop&amp;q=80&amp;w=1400 1400w"
+                 sizes="(min-width: 900px) 460px, 70vw" width="900" height="1350" loading="lazy"
+                 alt="Cucurucho de barquillo con una bola verde de pistacho sobre una de chocolate, en un fondo oscuro"
+                 style="--pos:50% 40%">
+          </figure>
+          <div class="flavor__copy">
+            <p class="flavor__num">02 <span>/ 05</span></p>
+            <h2 id="t-pistacho">Pistacho &amp; cacao</h2>
+            <p class="flavor__desc">Pistacho tostado en casa, salado apenas, encima de un cacao oscuro y denso. Dulce, salado y amargo en una sola cucharada.</p>
+            <ul class="flavor__tags" aria-label="Ingredientes"><li>Pistacho tostado</li><li>Cacao 70%</li><li>Sal marina</li></ul>
+          </div>
+          <a class="btn flavor__cta" data-wa="Hola Nevada 👋 Quiero un helado de Pistacho & cacao." href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20un%20helado%20de%20Pistacho%20y%20cacao." target="_blank" rel="noopener">Quiero este <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="flavor" id="sabor-frambuesa" data-name="Frambuesa &amp; yogur" style="--bg:#7E1F3F;--ink:#FFE6EE;--accent:#B23A62;--k:17.2" aria-labelledby="t-frambuesa">
+          <p class="flavor__word" aria-hidden="true">Frambuesa</p>
+          <div class="flavor__decor" aria-hidden="true"></div>
+          <figure class="flavor__frame">
+            <img src="https://images.unsplash.com/photo-1705103654884-cbd03d95761a?auto=format&amp;fit=crop&amp;q=80&amp;w=1200"
+                 srcset="https://images.unsplash.com/photo-1705103654884-cbd03d95761a?auto=format&amp;fit=crop&amp;q=80&amp;w=700 700w, https://images.unsplash.com/photo-1705103654884-cbd03d95761a?auto=format&amp;fit=crop&amp;q=80&amp;w=1200 1200w, https://images.unsplash.com/photo-1705103654884-cbd03d95761a?auto=format&amp;fit=crop&amp;q=80&amp;w=1800 1800w"
+                 sizes="(min-width: 900px) 700px, 110vw" width="1200" height="800" loading="lazy"
+                 alt="Cucurucho rebosante de helado rosado de frambuesa y yogur sobre un fondo frambuesa"
+                 style="--pos:52% 50%">
+          </figure>
+          <div class="flavor__copy">
+            <p class="flavor__num">03 <span>/ 05</span></p>
+            <h2 id="t-frambuesa">Frambuesa &amp; yogur</h2>
+            <p class="flavor__desc">Yogur natural con vetas de frambuesa ácida. El más fresco de la vitrina para las tardes de calor.</p>
+            <ul class="flavor__tags" aria-label="Ingredientes"><li>Frambuesa</li><li>Yogur natural</li><li>Limón</li></ul>
+          </div>
+          <a class="btn flavor__cta" data-wa="Hola Nevada 👋 Quiero un helado de Frambuesa & yogur." href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20un%20helado%20de%20Frambuesa%20y%20yogur." target="_blank" rel="noopener">Quiero este <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="flavor" id="sabor-cookies" data-name="Cookies &amp; crema" style="--bg:#F1E6D3;--ink:#2A1A10;--accent:#1FA8DF;--k:22" aria-labelledby="t-cookies">
+          <p class="flavor__word" aria-hidden="true">Cookies</p>
+          <div class="flavor__decor" aria-hidden="true"></div>
+          <figure class="flavor__frame">
+            <img src="https://images.unsplash.com/photo-1627145607871-3053762c1130?auto=format&amp;fit=crop&amp;q=80&amp;w=900"
+                 srcset="https://images.unsplash.com/photo-1627145607871-3053762c1130?auto=format&amp;fit=crop&amp;q=80&amp;w=500 500w, https://images.unsplash.com/photo-1627145607871-3053762c1130?auto=format&amp;fit=crop&amp;q=80&amp;w=900 900w, https://images.unsplash.com/photo-1627145607871-3053762c1130?auto=format&amp;fit=crop&amp;q=80&amp;w=1400 1400w"
+                 sizes="(min-width: 900px) 460px, 70vw" width="900" height="1350" loading="lazy"
+                 alt="Cucurucho de crema con galleta de chocolate y baño de cacao, sostenido frente a un fondo azul"
+                 style="--pos:50% 40%">
+          </figure>
+          <div class="flavor__copy">
+            <p class="flavor__num">04 <span>/ 05</span></p>
+            <h2 id="t-cookies">Cookies &amp; crema</h2>
+            <p class="flavor__desc">Crema de vainilla con trozos grandes de galleta de cacao y un baño crujiente que se rompe al primer mordisco.</p>
+            <ul class="flavor__tags" aria-label="Ingredientes"><li>Galleta de cacao</li><li>Crema</li><li>Baño crujiente</li></ul>
+          </div>
+          <a class="btn flavor__cta" data-wa="Hola Nevada 👋 Quiero un helado de Cookies & crema." href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20un%20helado%20de%20Cookies%20y%20crema." target="_blank" rel="noopener">Quiero este <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="flavor" id="sabor-fiesta" data-name="Vainilla fiesta" style="--bg:#2535C9;--ink:#FFE24A;--accent:#3E4FE0;--k:25.8" aria-labelledby="t-fiesta">
+          <p class="flavor__word" aria-hidden="true">Fiesta</p>
+          <div class="flavor__decor" aria-hidden="true"></div>
+          <figure class="flavor__frame">
+            <img src="https://images.unsplash.com/photo-1718810125230-e8e2271354f5?auto=format&amp;fit=crop&amp;q=80&amp;w=1200"
+                 srcset="https://images.unsplash.com/photo-1718810125230-e8e2271354f5?auto=format&amp;fit=crop&amp;q=80&amp;w=700 700w, https://images.unsplash.com/photo-1718810125230-e8e2271354f5?auto=format&amp;fit=crop&amp;q=80&amp;w=1200 1200w, https://images.unsplash.com/photo-1718810125230-e8e2271354f5?auto=format&amp;fit=crop&amp;q=80&amp;w=1800 1800w"
+                 sizes="(min-width: 900px) 700px, 110vw" width="1200" height="800" loading="lazy"
+                 alt="Mano sosteniendo un cucurucho doble de vainilla cubierto de chispas de colores sobre un fondo amarillo"
+                 style="--pos:46% 50%">
+          </figure>
+          <div class="flavor__copy">
+            <p class="flavor__num">05 <span>/ 05</span></p>
+            <h2 id="t-fiesta">Vainilla fiesta</h2>
+            <p class="flavor__desc">Vainilla de vaina con una lluvia de chispas de colores. El favorito de los cumpleaños, tengas la edad que tengas.</p>
+            <ul class="flavor__tags" aria-label="Ingredientes"><li>Vainilla en vaina</li><li>Chispas de colores</li></ul>
+          </div>
+          <a class="btn flavor__cta" data-wa="Hola Nevada 👋 Quiero un helado de Vainilla fiesta." href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20un%20helado%20de%20Vainilla%20fiesta." target="_blank" rel="noopener">Quiero este <span aria-hidden="true">→</span></a>
+        </article>
+
+        <nav class="flavors__dots" aria-label="Elegir sabor">
+          <a href="#sabor-fresa" style="--c:#F6A9BC"><span class="sr">Fresa &amp; nata</span></a>
+          <a href="#sabor-pistacho" style="--c:#BCD98A"><span class="sr">Pistacho &amp; cacao</span></a>
+          <a href="#sabor-frambuesa" style="--c:#C94A73"><span class="sr">Frambuesa &amp; yogur</span></a>
+          <a href="#sabor-cookies" style="--c:#F1E6D3"><span class="sr">Cookies &amp; crema</span></a>
+          <a href="#sabor-fiesta" style="--c:#2535C9"><span class="sr">Vainilla fiesta</span></a>
+        </nav>
+        <p class="flavors__hint" aria-hidden="true"><span class="hint-desk">Baja para probar otro sabor</span><span class="hint-touch">Desliza para probar otro sabor</span></p>
+      </div>
+    </section>
+
+    <!-- 2 · Detalle de textura -->
+    <section class="texture" id="textura" aria-labelledby="t-textura">
+      <div class="texture__media">
+        <img src="https://images.unsplash.com/photo-1636696301991-3e176a6b77dc?auto=format&amp;fit=crop&amp;q=80&amp;w=1400"
+             srcset="https://images.unsplash.com/photo-1636696301991-3e176a6b77dc?auto=format&amp;fit=crop&amp;q=80&amp;w=800 800w, https://images.unsplash.com/photo-1636696301991-3e176a6b77dc?auto=format&amp;fit=crop&amp;q=80&amp;w=1400 1400w, https://images.unsplash.com/photo-1636696301991-3e176a6b77dc?auto=format&amp;fit=crop&amp;q=80&amp;w=2200 2200w"
+             sizes="(min-width: 900px) 62vw, 100vw" width="1400" height="933" loading="lazy"
+             alt="Tres bolas de helado de chocolate con trocitos, servidas en un cuenco sobre fondo amarillo">
+      </div>
+      <div class="texture__copy">
+        <p class="eyebrow">De cerca</p>
+        <h2 id="t-textura">Cremoso hasta la última cucharada.</h2>
+        <p>Batimos despacio y en tandas pequeñas, para que el helado salga denso, sin cristales de hielo y con los trozos enteros.</p>
+        <dl class="texture__facts">
+          <div><dt>La base</dt><dd>Leche entera y crema fresca</dd></div>
+          <div><dt>La fruta</dt><dd>De temporada, nunca de concentrado</dd></div>
+          <div><dt>Cuándo</dt><dd>Cada mañana, antes de abrir</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 3 · Arma tu helado -->
+    <section class="build" id="arma" aria-labelledby="t-arma">
+      <div class="build__head">
+        <p class="eyebrow">Arma tu helado</p>
+        <h2 id="t-arma">Elige, combina y <br class="br-lg">pídelo en un mensaje.</h2>
+      </div>
+
+      <div class="build__grid">
+        <div class="build__preview" aria-hidden="true">
+          <div class="treat" data-format="cono">
+            <div class="treat__scoops"></div>
+            <div class="treat__base"></div>
+          </div>
+        </div>
+
+        <form class="build__form" id="builder" novalidate>
+          <fieldset class="field">
+            <legend>1 · Formato</legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="formato" value="Cono" checked><span>Cono</span></label>
+              <label class="choice"><input type="radio" name="formato" value="Vaso"><span>Vaso</span></label>
+              <label class="choice"><input type="radio" name="formato" value="Pote de ½ kg"><span>Pote ½ kg</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>2 · <span data-count-label>Bolas</span></legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="bolas" value="1"><span>1</span></label>
+              <label class="choice"><input type="radio" name="bolas" value="2" checked><span>2</span></label>
+              <label class="choice"><input type="radio" name="bolas" value="3"><span>3</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="field field--flavors">
+            <legend>3 · Sabores</legend>
+            <div class="scoop-rows"></div>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>4 · Topping <span class="opt">(opcional)</span></legend>
+            <div class="choices choices--wrap">
+              <label class="choice"><input type="checkbox" name="topping" value="Chispas de colores"><span>Chispas de colores</span></label>
+              <label class="choice"><input type="checkbox" name="topping" value="Salsa de chocolate"><span>Salsa de chocolate</span></label>
+              <label class="choice"><input type="checkbox" name="topping" value="Nueces tostadas"><span>Nueces tostadas</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field field--name">
+            <label for="nombre">5 · ¿A nombre de quién? <span class="opt">(opcional)</span></label>
+            <input id="nombre" name="nombre" type="text" autocomplete="given-name" maxlength="40" placeholder="Tu nombre">
+          </div>
+
+          <div class="build__summary">
+            <output class="summary" for="builder" aria-live="polite"></output>
+            <a class="btn btn--wa btn--big" id="build-send" href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20pedir%20helado." target="_blank" rel="noopener">
+              <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>
+              Enviar pedido por WhatsApp
+            </a>
+            <p class="note">Se abrirá WhatsApp con tu pedido escrito. Ahí te confirmamos disponibilidad y precio.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- 4 · Visítanos -->
+    <section class="visit" id="visitanos" aria-labelledby="t-visit">
+      <figure class="visit__media">
+        <img src="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?auto=format&amp;fit=crop&amp;q=80&amp;w=1200"
+             srcset="https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?auto=format&amp;fit=crop&amp;q=80&amp;w=700 700w, https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?auto=format&amp;fit=crop&amp;q=80&amp;w=1200 1200w, https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?auto=format&amp;fit=crop&amp;q=80&amp;w=1800 1800w"
+             sizes="(min-width: 900px) 55vw, 100vw" width="1200" height="800" loading="lazy"
+             alt="Vitrina de heladería con bandejas de helados de varios sabores">
+      </figure>
+      <div class="visit__card">
+        <p class="eyebrow">Visítanos <span class="demo-tag">Datos de ejemplo</span></p>
+        <h2 id="t-visit">La vitrina cambia cada día.</h2>
+        <dl class="visit__info">
+          <div><dt>Dónde</dt><dd>Calle de Ejemplo 123, Tu ciudad</dd></div>
+          <div><dt>Horario</dt><dd>Lunes a domingo · 12:00 – 22:00</dd></div>
+          <div><dt>Cómo pedir</dt><dd>Escríbenos y recoge en tienda o pide a domicilio</dd></div>
+        </dl>
+        <a class="btn btn--wa" data-wa="Hola Nevada 👋 ¿Cuál es el sabor del día?" href="https://wa.me/?text=Hola%20Nevada%2C%20%C2%BFcu%C3%A1l%20es%20el%20sabor%20del%20d%C3%ADa%3F" target="_blank" rel="noopener">
+          <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>
+          Pregunta por el sabor del día
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 5 · Cierre -->
+  <footer class="end">
+    <p class="end__big">¿Se te <br>antojó?</p>
+    <a class="btn btn--wa btn--big btn--light" data-wa="Hola Nevada 👋 Quiero pedir helado. ¿Qué sabores tienen hoy?" href="https://wa.me/?text=Hola%20Nevada%2C%20quiero%20pedir%20helado." target="_blank" rel="noopener">
+      <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#wa"/></svg>
+      Pedir por WhatsApp
+    </a>
+    <div class="end__meta">
+      <p><strong>nevada</strong> es una marca ficticia de demostración · Concepto de WebsoriaStudio.</p>
+      <p class="credits">Fotos de Unsplash:
+        <a href="https://unsplash.com/photos/TLD6iCOlyb0" target="_blank" rel="noopener">ian dooley</a>,
+        <a href="https://unsplash.com/photos/Nag3E3yzygU" target="_blank" rel="noopener">Rosa Rafael</a>,
+        <a href="https://unsplash.com/photos/_gN4PnJ3ygg" target="_blank" rel="noopener">Orissa Humes</a>,
+        <a href="https://unsplash.com/photos/Nucr4ReLWUg" target="_blank" rel="noopener">Omar Al-Ghosson</a>,
+        <a href="https://unsplash.com/photos/3D0HUHFcRrk" target="_blank" rel="noopener">Zach Camp</a>,
+        <a href="https://unsplash.com/photos/skOe_mh7UPk" target="_blank" rel="noopener">Oddfellows Ice Cream</a> y
+        <a href="https://unsplash.com/photos/Wpg3Qm0zaGk" target="_blank" rel="noopener">Lama Roscu</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Icono de WhatsApp reutilizable -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.4-.3Z"/></symbol>
+  </svg>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
+
